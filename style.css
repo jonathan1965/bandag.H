@@ -1,0 +1,161 @@
+/* ----------------------------------- */
+/* Basic Setup */
+/* ----------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+    
+html{
+        background-color: rgb(255, 255, 255);
+        color: #555;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 300px;
+        text-rendering: optimizeLegibility;
+    
+    }
+
+/****************/
+/**** Header*** */
+/* *********** */
+
+.logo{
+    background: url(img/header-01.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.navbar {
+    text-align: center;
+     background: transparent !important;
+}
+.navbar img{
+    width:100px;
+    height: auto;
+}
+
+.nav-item a{
+color: #055497;
+font-size: 12px
+}
+
+/*************************/
+/**** Product Section*****/
+/* ***********************/
+
+.section-product{
+    height: 70vh;
+}
+
+.header1{
+    height: 70vh; 
+    background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0, .2)), url(img/back.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size:contain;
+
+}
+.header1 h2{
+    margin-top: 0%;
+}
+.header1 a , .header2 a , .header3 a{
+    background:#055497 !important;
+}
+
+.header2{
+    height: 70vh; 
+    background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0, .2)), url(img/back3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.header3{
+    height: 70vh;
+     background: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0, .2)), url(img/back6.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center bottom; 
+    background-size: contain;
+
+}
+
+
+/*************************/
+/**** About Section*******/
+/* ***********************/
+
+.section-about{
+    height: 100%;
+}
+/* card1 and card3 */
+.card1 , .card3 {
+    background: #FEE600;
+    color: #055497;
+}
+.card1 a , .card3 a {
+    background: #055497 !important
+}
+.card1 img , .card3 img {
+    width: 100px;
+}
+
+
+/* card2 and card4 */
+.card2 , .card4 {
+    background: #055497;
+    color: #055497;
+}
+
+
+.card2 img , .card4 img {
+    width: 100px;
+}
+
+.card2 a , .card4 a{
+background: #FEE600 !important;
+}
+
+
+
+
+
+
+
+
+/****************/
+/****   *** */
+/* *********** */
+.textarea-container {
+    position: relative;
+  }
+
+  .textarea-container textarea {
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .input:focus {
+    outline: none !important;
+  }
+
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .textarea-container button {
+    position: absolute;
+    top: 70%;
+    right: -150%;
+  }
+
+  .tyre {
+    color: #055497;
+  }
+
+  
